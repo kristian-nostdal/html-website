@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Hei :)</title>
-</head>
-<body>
-  <iframe src="https://play.kahoot.it/v2/?quizId=67688428-fdcc-4841-94f8-36c05ef67cb6" 
-  style="border:0px #ffffff none; min-height: 1000px;" 
-  name="myiFrame" 
-  scrolling="yes" 
-  frameborder="1" 
-  marginheight="0px" 
-  marginwidth="0px" 
-  height="100%" 
-  width="100%" 
-  allowfullscreen></iframe>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Display Webcam Stream</title>
+
+    <style>
+      #container {
+        margin: 0px auto;
+        width: 500px;
+        height: 375px;
+        border: 10px #333 solid;
+      }
+      #videoElement {
+        width: 500px;
+        height: 375px;
+        background-color: #666;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>A beautiful person :)</h1>
+      <video autoplay="true" id="videoElement"></video>
+    </div>
+    <script>
+      var video = document.querySelector("#videoElement");
+
+      if (navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices
+          .getUserMedia({ video: true })
+          .then(function (stream) {
+            video.srcObject = stream;
+          })
+          .catch(function (err0r) {
+            console.log("Something went wrong!");
+          });
+      }
+    </script>
+  </body>
 </html>
