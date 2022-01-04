@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3f7f763c.css",
-    "main.js": "/static/js/main.e4caae9e.js",
+    "main.js": "/static/js/main.67fd7d3a.js",
     "static/js/787.19f27a62.chunk.js": "/static/js/787.19f27a62.chunk.js",
     "static/media/talent_stadium.jpeg": "/static/media/talent_stadium.aa300bb4241c08479fcf.jpeg",
     "static/media/celtic_stadium.jpg": "/static/media/celtic_stadium.dff9f8607b1fe551ee14.jpg",
@@ -43,11 +43,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/index.html",
     "main.3f7f763c.css.map": "/static/css/main.3f7f763c.css.map",
-    "main.e4caae9e.js.map": "/static/js/main.e4caae9e.js.map",
+    "main.67fd7d3a.js.map": "/static/js/main.67fd7d3a.js.map",
     "787.19f27a62.chunk.js.map": "/static/js/787.19f27a62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f7f763c.css",
-    "static/js/main.e4caae9e.js"
+    "static/js/main.67fd7d3a.js"
   ]
 }
