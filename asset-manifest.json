@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.59b3f3da.css",
-    "main.js": "/static/js/main.aa8e62e2.js",
+    "main.css": "/static/css/main.7de12bb4.css",
+    "main.js": "/static/js/main.c6a6dcaf.js",
     "static/js/787.19f27a62.chunk.js": "/static/js/787.19f27a62.chunk.js",
     "static/media/talent_stadium.jpeg": "/static/media/talent_stadium.aa300bb4241c08479fcf.jpeg",
     "static/media/celtic_stadium.jpg": "/static/media/celtic_stadium.dff9f8607b1fe551ee14.jpg",
@@ -42,12 +42,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/static/media/roboto-greek-ext-300-normal.04e05839d6a35e046c13.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/index.html",
-    "main.59b3f3da.css.map": "/static/css/main.59b3f3da.css.map",
-    "main.aa8e62e2.js.map": "/static/js/main.aa8e62e2.js.map",
+    "main.7de12bb4.css.map": "/static/css/main.7de12bb4.css.map",
+    "main.c6a6dcaf.js.map": "/static/js/main.c6a6dcaf.js.map",
     "787.19f27a62.chunk.js.map": "/static/js/787.19f27a62.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59b3f3da.css",
-    "static/js/main.aa8e62e2.js"
+    "static/css/main.7de12bb4.css",
+    "static/js/main.c6a6dcaf.js"
   ]
 }
